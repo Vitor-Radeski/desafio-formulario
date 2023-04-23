@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>desafio formulário</title>
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/estilos.css" />
+  </head>
+  <body>
+    <div class="texto">
+      <h1>FICOU COM DÚVIDA? <br />NOS MANDE UMA MENSAGEM!</h1>
+      <p>
+        caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+        entraremos em contato em menos de 24h.
+      </p>
+    </div>
+    <form class="formulario">
+      <input type="text" placeholder="Nome Completo *" class="input-text" />
+      <input type="text" placeholder="Email *" class="input-text" />
+      <input type="text" placeholder="Telefone *" class="input-text" />
+      <textarea class="input-text mensagem" placeholder="Mensagem *"></textarea>
+      <p>*campos obrigatórios</p>
+      <input
+        type="submit"
+        value="Enviar"
+        class="input-submit"
+        id="input-submit"
+      />
+    </form>
+
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
